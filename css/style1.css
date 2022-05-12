@@ -1,0 +1,233 @@
+header {
+    display: flex;
+}
+
+body {
+/*     min-height: 1000px;
+    overflow: hidden; */
+    background-image: url("../img/Небо.jpg");
+    background-size: cover;
+}
+
+
+
+.name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #992800;
+
+    text-shadow: 0px 2px 30px #FFFFFF;
+}
+
+.tagline {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+/* or 18px */
+    color: #FFFFFF;
+}
+
+.phone {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.button {
+    height: 33px;
+    width: 173px;
+    left: 1367px;
+    top: 49px;
+    border-radius: 5px;
+    background-image: url("../img/Кнопка\ Перезвонить.png");
+}
+
+.container {
+    width: 50%;
+    overflow: hidden;
+    margin: 153px 0px 0px 20%;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.main {
+    margin: 0px 57% 0px 0px;
+    width: 43%;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+.pic1 {
+    margin: 0px 1% 0px 25%;
+    width: 82px;
+    height: 64px;
+    background-image: url("../img/Календарь\ иконка.png");
+}
+
+.pic1_text {
+    margin: 1% 40% 0 0;
+    width: 95px;
+    height: 37px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+/* or 125% */
+
+    color: #FFFFFF;
+}
+
+.quiz_text {
+    margin: -1% 70% 4% 0;
+    width: 388px;
+    height: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+/* or 26px */
+
+    color: #FFFFFF;
+}
+
+.pic_vector {
+
+}
+
+.pic2 {
+    margin: 0 2% 0 0;
+    border-radius: 10px;
+    width: 176px;
+    height: 131px;
+    background-image: url("../img/Сваи\ фото.jpg");
+    background-size: cover;
+}
+
+.pic2_text {
+    margin: 4% 2% 0 0;
+    width: 279px;
+    height: 65px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+
+    color: #FFFFFF;
+}
+
+.pointer {
+    margin: 4% 2% 0 0;
+    width: 46px;
+    height: 45px;
+    background-image: url("../img/Стрелка.svg");
+    background-size: cover;
+}
+
+.special_price {
+    margin: 4.6% 32% 0 0;
+    width: 125px;
+    height: 27px;
+    background-image: url("../img/Цена.png");
+
+}
+
+.quiz_text2 {
+    margin: 4% 40% 0 0;
+    width: 611px;
+    height: 45px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+
+    color: #FFFFFF;
+}
+
+.button2 {
+    margin: 1% 40% 0 0;
+    padding: 2% 2% 2% 2%;
+    border-radius: 5px;
+    width: 27.3%;
+    height: 5.8%;
+    background-image: url("../img/Кнопка\ Рассчитать\ стоимость.jpg");
+    background-size: cover;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.underbutton {
+    margin: 1% 40% 2% 6%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* .pictures {
+    height: 1000px;
+    overflow: hidden;
+} */
+
+
+.home {
+    z-index:-1;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    left: 57%;
+    top: 22.5%;
+    margin: 1% 40% 0 0;
+    border-radius: 5px;
+    width: 1002px;
+    height: 876px;
+    background-image: url("../img/Дом-2\ 1.png");
+    background-size: cover;
+}
+
+.tree1 {
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    left: 82.7%;
+    top: 52.5%;
+    margin: 1% 40% 0 0;
+    border-radius: 5px;
+    width: 330px;
+    height: 527px;
+    background-image: url("../img/Ель\ 2.png");
+    background-size: cover;
+}
+

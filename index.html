@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Каркасные дома</title>
+    <link rel="icon" type="image/x-icon" href="img/Логотип (1).svg">
+    <meta name="viewport" content="width=device-width">
+</head>
+<header>
+    <div class="logo"></div>
+    <div class="name">КаркасныйДом <br> Уютный дом под ключ!</div>
+    <div class="tagline">Строительство качественных <br> и надежных каркасных домов с 1998 г.</div>
+    <div class="phone">+7 (920) 119-63-25</div>
+    <a class="button1" href="" id="modal">
+        <div class="button1_icon"></div>
+        <div class="button1_text">перезвонить мне</div>
+    </a>
+</header>
+<body>
+
+    <button class="screen hide" id="bcscr"></button>
+    <div class="container">
+        <div class="subcontainer">
+            <h1 class="main">Строительство долговечных каркасных домов под ключ от 19 тыс. руб. за кв. метр с экономией 20%</h1>
+            <div class="pic1"></div>
+            <div class="pic1_text">При заказе в апреле</div>
+            <div class="quiz_text">Ответьте на 5 вопросов за 30 секунд и получите  фундамент в подарок:</div>
+            <div class="pic_vector"></div>
+            <div class="pic2"></div>
+            <div class="pic2_text">Сваи железобетонные или винтовые, в зависимости от грунта</div>
+            <div class="pointer"></div>
+            <div class="special_price"></div>
+            <div class="quiz_text2">Пройдите бесплатный тест и рассчитайте стоимость строительства Вашего дома по специальным весенним ценам</div>
+            <button class="button2" id="btn2">
+                <span class="button2_text">рассчитать стоимость дома с экономией 20%</span> 
+            </button>
+            <div class="underbutton">Расчёт бесплатный. Ваши данные защищены</div>
+        </div>
+        <div class="home"></div>
+        <div class="tree3"></div>
+        <div class="bush"></div>
+        <div class="pictures">
+
+        </div>
+        
+
+    </div>
+    <div class="question hide" id="question-1">
+        <div class="q_number"></div>
+        <div class="q_quest">1. Какой Вам нужен дом?</div>
+        <div class="q_status"></div>
+        <div class="q_name">Алексей</div>
+        <div class="q_subname">главный менеджер</div>
+        <div class="q_text">Здравствуйте, меня зовут Алексей, и я помогу Вам подобрать дом.</div>
+        <div class="q_home"></div>
+        <div class="q_quest"></div>
+        <div class="q_variants">
+            <button class="q_var pressed" id="q1v1">
+                <div class="q1-1_img"></div>
+                <div class="q1_text">Для постоянного проживания весь год</div>
+            </button>
+            <button class="q_var pressed" id="q1v2">
+                <div class="q1-2_img"></div>
+                <div class="q1_text">Дачный/загородный дом на весну-осень</div>
+            </button>
+            <button class="q_var pressed" id="q1v3">
+                <div class="q1-3_img"></div>
+                <div class="q1_text">Гостевой дом</div>
+            </button>
+            <button class="q_var pressed" id="q1v4">
+                <div class="q1-4_img"></div>
+                <div class="q1_text">Пока не определились</div>
+            </button>
+        </div>
+        <button class="q_back" id="back_to0"></button>
+        <button class="q_next" id="next_to2"></button>
+    </div>  
+    
+    <div class="question hide" id="question-2">
+        <div class="q2_number"></div>
+        <div class="q_quest">2. Как скоро Вам нужен дом?</div>
+        <div class="q_status"></div>
+        <div class="q_name">Алексей</div>
+        <div class="q_subname">главный менеджер</div>
+        <div class="q_text">Здравствуйте, меня зовут Алексей, и я помогу Вам подобрать дом.</div>
+        <div class="q_home"></div>
+        <div class="q_quest"></div>
+        <div class="q_variants">
+            <button class="q2_var" id="q2v1">
+                <div class="q2_var_text">В течении недели (дополнительная скидка 10%)</div>
+            </button>
+            <button class="q2_var" id="q2v2">
+                <div class="q2_var_text">В ближайший месяц</div>
+            </button>
+            <button class="q2_var" id="q2v3">
+                <div class="q2_var_text">В течении 3 месяцев</div>
+            </button>
+            <button class="q2_var" id="q2v4">
+                <div class="q2_var_text">Не планирую, нужен только расчёт</div>
+            </button>
+        </div>
+        <button class="q_back" id="back_to1"></button>
+        <button class="q_next" id="next_to3"></button>
+<!--         <label class="user_phone">
+            <input type="text" class="input-phone" id="input-phone" placeholder="ваш номер телефона"/>
+        </label> -->
+    </div>  
+
+    <div class="question hide" id="question-3">
+        <div class="q3_number"></div>
+        <div class="q_quest">3. Какое количество этажей необходимо?</div>
+        <div class="q_status"></div>
+        <div class="q_name">Алексей</div>
+        <div class="q_subname">главный менеджер</div>
+        <div class="q_text">Здравствуйте, меня зовут Алексей, и я помогу Вам подобрать дом.</div>
+        <div class="q_home"></div>
+        <div class="q_quest"></div>
+        <div class="q_variants">
+            <button class="q_var pressed" id="q3v1">
+                <div class="q3-1_img"></div>
+                <div class="q1_text">1 этаж</div>
+            </button>
+            <button class="q_var pressed" id="q3v2">
+                <div class="q3-2_img"></div>
+                <div class="q1_text">2 этажа</div>
+            </button>
+            <button class="q_var pressed" id="q3v3">
+                <div class="q3-3_img"></div>
+                <div class="q1_text">1 этаж + мансарда</div>
+            </button>
+            <button class="q_var pressed" id="q3v4">
+                <div class="q3-4_img"></div>
+                <div class="q1_text">Не определились</div>
+            </button>
+        </div>
+        <button class="q_back" id="back_to2"></button>
+        <button class="q_next" id="next_to4"></button>
+<!--         <label class="user_phone">
+            <input type="text" class="input-phone" id="input-phone" placeholder="ваш номер телефона"/>
+        </label> -->
+    </div>  
+
+    <div class="question hide" id="question-4">
+        <div class="q4_number"></div>
+        <div class="q_quest">4. Какой бюджет Вы примерно рассчитываете?</div>
+        <div class="q_status"></div>
+        <div class="q_name">Алексей</div>
+        <div class="q_subname">главный менеджер</div>
+        <div class="q_text">Здравствуйте, меня зовут Алексей, и я помогу Вам подобрать дом.</div>
+        <div class="q_home"></div>
+        <div class="q_quest"></div>
+        <div class="q_variants">
+            <button class="q2_var" id="q4v1">
+                <div class="q2_var_text">До 600 тыс. руб.</div>
+            </button>
+            <button class="q2_var" id="q4v2">
+                <div class="q2_var_text">До 1,5 млн руб.</div>
+            </button>
+            <button class="q2_var" id="q4v3">
+                <div class="q2_var_text">Более 2 млн руб.</div>
+            </button>
+            <button class="q2_var" id="q4v4">
+                <div class="q2_var_text">Пока не определились</div>
+            </button>
+        </div>
+        <button class="q_back" id="back_to3"></button>
+        <button class="q_next" id="next_to5"></button>
+<!--         <label class="user_phone">
+            <input type="text" class="input-phone" id="input-phone" placeholder="ваш номер телефона"/>
+        </label> -->
+    </div>  
+
+    <div class="question hide" id="question-5">
+        <div class="q5_number"></div>
+        <div class="q_quest">5. Какую общую площадь дома рассматриваете?</div>
+        <div class="q_status"></div>
+        <div class="q_name">Алексей</div>
+        <div class="q_subname">главный менеджер</div>
+        <div class="q_text">Здравствуйте, меня зовут Алексей, и я помогу Вам подобрать дом.</div>
+        <div class="q_home"></div>
+        <div class="q_quest"></div>
+        <div class="q_variants">
+            <button class="q2_var" id="q5v1">
+                <div class="q2_var_text">До 50 м2</div>
+            </button>
+            <button class="q2_var" id="q5v2">
+                <div class="q2_var_text">До 250 м2</div>
+            </button>
+            <button class="q2_var" id="q5v3">
+                <div class="q2_var_text">До 350 м2</div>
+            </button>
+            <button class="q2_var" id="q5v4">
+                <div class="q2_var_text">Более 350 м2</div>
+            </button>
+        </div>
+        <button class="q_back" id="back_to4"></button>
+        <button class="q_next" id="next_to_numb"></button>
+<!--         <label class="user_phone">
+            <input type="text" class="input-phone" id="input-phone" placeholder="ваш номер телефона"/>
+        </label> -->
+    </div>  
+
+    <div class="question hide" id="number_card">
+        <div class="thank_u">Спасибо за ответы! <br>Мы свяжемся с Вами сразу после обработки заказа</div>
+        <div class="thank_q">Куда Вам будет удобнее отправить?</div>
+        <div class="thank_var">
+            <button class="thank_v1" id="thank_v1"></button>
+            <button class="thank_v2" id="thank_v2"></button>
+            <button class="thank_v3" id="thank_v3"></button>
+            <button class="thank_v4" id="thank_v4"></button>
+        </div>
+        <div class="thank_under">
+            <div class="thank_img">
+                <div class="thank_img_text">
+                    <div class="thank_img_text1">сваи железобетонные или винтовые, в зависимости от грунта</div>
+                </div>
+            </div>
+            <div class="thank_cont_container">
+                <div class="thank_cont_js" id="thank_js">
+
+                </div>
+                <div class="present_img"></div>
+                <div class="present_text">Получите расчёт стоимости дома с экономией 20% + фундамент в подарок</div>
+            </div>
+
+        </div>
+
+    </div>  
+
+    <div class="question hide" id="video_card">
+        <div class="thank_u">Спасибо за Вашу заявку!</div>
+        <div class="thank_q">Наш специалист приступил к расчёту стоимости строительства.<br> Если у него возникнут вопросы, он Вам перезвонит. 
+        <br> Как только расчёт будет готов, мы отправим его Вам удобным способом.</div>
+        </div>
+
+    </div>  
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+ <script src="js/script.js"></script>
+</html>
