@@ -74,6 +74,48 @@ function openCard1(){
 /*     Kotoraya s nomerom vpisat.classList.add('hide'); */
 }
 
+function remPr1(){
+    q1v1.classList.remove('pressed');
+    q1v2.classList.remove('pressed');
+    q1v3.classList.remove('pressed');
+    q1v4.classList.remove('pressed');
+}
+
+function remPr2(){
+    q2v1.classList.remove('pressed');
+    q2v2.classList.remove('pressed');
+    q2v3.classList.remove('pressed');
+    q2v4.classList.remove('pressed');
+}
+
+function remPr3(){
+    q3v1.classList.remove('pressed');
+    q3v2.classList.remove('pressed');
+    q3v3.classList.remove('pressed');
+    q3v4.classList.remove('pressed');
+}
+
+function remPr4(){
+    q4v1.classList.remove('pressed');
+    q4v2.classList.remove('pressed');
+    q4v3.classList.remove('pressed');
+    q4v4.classList.remove('pressed');
+}
+
+function remPr5(){
+    q5v1.classList.remove('pressed');
+    q5v2.classList.remove('pressed');
+    q5v3.classList.remove('pressed');
+    q5v4.classList.remove('pressed');
+}
+
+function remPr6(){
+    thank_v1.classList.remove('pressed');
+    thank_v2.classList.remove('pressed');
+    thank_v3.classList.remove('pressed');
+    thank_v4.classList.remove('pressed');
+}
+
 function Back(){
     q1.classList.add('hide');
     q2.classList.add('hide');
@@ -93,12 +135,13 @@ function createbutton() {
         <div class="thank_cont_js2" id="thank_js2">
             <form action="https://formsubmit.co/stmaxalex@gmail.com" method="POST">
                 <input type="text" class="input-phone" id="input-phone" placeholder="ваш номер телефона" name="телефон" required>
-                <input type="hidden" name="message" value="${q1a}">
-                <input type="hidden" name="message" value="${q2a}">
-                <input type="hidden" name="message" value="${q3a}">
-                <input type="hidden" name="message" value="${q4a}">
-                <input type="hidden" name="message" value="${q5a}">
-                <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                <input type="hidden" name="Какой Вам нужен дом?" value="${q1a}">
+                <input type="hidden" name="Как скоро Вам нужен дом?" value="${q2a}">
+                <input type="hidden" name="Какое количество этажей необходимо?" value="${q3a}">
+                <input type="hidden" name="Какой бюджет Вы примерно рассчитываете?" value="${q4a}">
+                <input type="hidden" name="Какую общую площадь дома рассматриваете?" value="${q5a}">
+                <input type="hidden" name="Куда Вам будет удобнее отправить?" value="${vo}">
+                <input type="hidden" name="_next" value="https://azatone39.github.io/wasa/thanks_you.html">
                 <button type="submit" class="send_phone">Получить результат</button>
             </form>
         </div>
@@ -112,105 +155,145 @@ function createbutton() {
 function answ1_1(){
     q1a = 'Для постоянного проживания весь год';
     console.log(q1a);
+    remPr1();
+    q1v1.classList.add('pressed');
 }
 
 function answ1_2(){
     q1a = 'Дачный/загородный дом на весну-осень';
     console.log(q1a);
+    remPr1();
+    q1v2.classList.add('pressed');
 }
 
 function answ1_3(){
     q1a = 'Гостевой дом';
     console.log(q1a);
+    remPr1();
+    q1v3.classList.add('pressed');
 }
 
 function answ1_4(){
     q1a = 'Пока не определились';
     console.log(q1a);
+    remPr1();
+    q1v4.classList.add('pressed');
 }
 
 /* ===================================================================================================== */
 function answ2_1(){
     q2a = 'В течении недели (дополнительная скидка 10%)';
     console.log(q2a);
+    remPr2();
+    q2v1.classList.add('pressed');
 }
 
 function answ2_2(){
     q2a = 'В ближайший месяц';
     console.log(q2a);
+    remPr2();
+    q2v2.classList.add('pressed');
 }
 
 function answ2_3(){
     q2a = 'В течении 3 месяцев';
     console.log(q2a);
+    remPr2();
+    q2v3.classList.add('pressed');
 }
 
 function answ2_4(){
     q2a = 'Не планирую, нужен только расчёт';
     console.log(q2a);
+    remPr2();
+    q2v4.classList.add('pressed');
 }
 
 /* ===================================================================================================== */
 function answ3_1(){
     q3a = '1 этаж';
     console.log(q3a);
+    remPr3();
+    q3v1.classList.add('pressed');
 }
 
 function answ3_2(){
     q3a = '2 этажа';
     console.log(q3a);
+    remPr3();
+    q3v2.classList.add('pressed');
 }
 
 function answ3_3(){
     q3a = '1 этаж + мансарда';
     console.log(q3a);
+    remPr3();
+    q3v3.classList.add('pressed');
 }
 
 function answ3_4(){
     q3a = 'Не определились';
     console.log(q3a);
+    remPr3();
+    q3v4.classList.add('pressed');
 }
 
 /* ===================================================================================================== */
 function answ4_1(){
     q4a = 'До 600 тыс. руб.';
     console.log(q4a);
+    remPr4();
+    q4v1.classList.add('pressed');
 }
 
 function answ4_2(){
     q4a = 'До 1,5 млн руб.';
     console.log(q4a);
+    remPr4();
+    q4v2.classList.add('pressed');
 }
 
 function answ4_3(){
     q4a = 'Более 2 млн руб.';
     console.log(q4a);
+    remPr4();
+    q4v3.classList.add('pressed');
 }
 
 function answ4_4(){
     q4a = 'Пока не определились';
     console.log(q4a);
+    remPr4();
+    q4v4.classList.add('pressed');
 }
 
 /* ===================================================================================================== */
 function answ5_1(){
     q5a = 'До 50 м2';
     console.log(q5a);
+    remPr5();
+    q5v1.classList.add('pressed');
 }
 
 function answ5_2(){
     q5a = 'До 250 м2';
     console.log(q5a);
+    remPr5();
+    q5v2.classList.add('pressed');
 }
 
 function answ5_3(){
     q5a = 'До 350 м2';
     console.log(q5a);
+    remPr5();
+    q5v3.classList.add('pressed');
 }
 
 function answ5_4(){
     q5a = 'Более 350 м2';
     console.log(q5a);
+    remPr5();
+    q5v4.classList.add('pressed');
 }
 
 /* ===================================================================================================== */
@@ -264,21 +347,29 @@ function openCardNumber(){
 function var_otv1(){
     vo = 'WhatsApp';
     createbutton();
+    remPr6();
+    thank_v1.classList.add('pressed');
 }
 
 function var_otv2(){
     vo = 'Viber';
     createbutton();
+    remPr6();
+    thank_v2.classList.add('pressed');
 }
 
 function var_otv3(){
     vo = 'Telegram';
     createbutton();
+    remPr6();
+    thank_v3.classList.add('pressed');
 }
 
 function var_otv4(){
     vo = 'Телефон';
     createbutton();
+    remPr6();
+    thank_v4.classList.add('pressed');
 }
 
 
